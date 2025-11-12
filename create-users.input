@@ -1,0 +1,13 @@
+# username:password:last:first:groups
+user01:ChangeMe!123:Last01:First01:group01
+user02:ChangeMe!123:Last02:First02:group02
+# This line is intentionally skipped by the code because it begins with '#'
+# user03:ChangeMe!123:Last03:First03:-
+user04:ChangeMe!123:Last04:First04:group01
+user05:ChangeMe!123:Last05:First05:group02
+# Multiple groups example:
+user06:ChangeMe!123:Last06:First06:group01,group02
+# No groups example (use '-' to indicate none):
+user07:ChangeMe!123:Last07:First07:-
+# Bad line (missing fields) to test error handling:
+user99:ChangeMe!123:Last99
